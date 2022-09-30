@@ -1,10 +1,12 @@
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-}
-
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 
 
 .navbar-brand{
@@ -13,7 +15,7 @@
 
 
 .navbar{
- font-family: "Open Sans";
+ font-family: 'Source Sans Pro';
  border-bottom: 3px solid #1AFF83 ;
  border-bottom-left-radius: 20%;
  border-bottom-right-radius: 20%;
@@ -28,7 +30,7 @@
 
 .sla{
 
- font-family: "Open Sans";
+font-family: 'Source Sans Pro';
  width: auto;
  height: 38.3rem;
  border-bottom: 5px solid black ;
@@ -46,10 +48,11 @@
 
  color: black;
  font-size: 12rem;
- margin-left: 40%;
+ margin-left: 43%;
  text-decoration: underline;
  transform: scale(1.1);
  filter: drop-shadow(5px 10px 4px grey);
+ margin-top: 10px;
 }
 
 
@@ -70,7 +73,7 @@
 }
 
 .sobre{
- font-family: "Open Sans";
+font-family: 'Source Sans Pro';
  color:black;
  width: 30%;
  margin-top: 8%;
@@ -82,9 +85,9 @@
 }
 
 .portifolio{
- font-family: "Open Sans";
+ font-family: var(-ff-primary);
  margin-top: 1%;
- margin-left: 43.2%;
+ margin-left: 42.3%;
  margin-right: 57.8%;
  float: left;
  color:black;
@@ -92,7 +95,7 @@
 }
 
 .descobrir{
- font-family: "Open Sans";
+ font-family: var(-ff-primary);
  background-color: black;
  color: white;
  border-style:ridge;
@@ -139,7 +142,7 @@
 }
 
 .descrição{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  width: 40%;
  margin-left: 5%;
  margin-top: 20%;
@@ -171,7 +174,7 @@ filter: drop-shadow(5px 10px 4px grey);
 
 
 #Tecnologias{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  width: 48.5%;
  margin-left: 46.5%;
  
@@ -213,12 +216,12 @@ margin-top: 7%;
 }
 
 #Projetos{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  margin-left: 44.5%;  
 }
 
 .ConteudoProjeto{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  margin-top: 10%;
  margin-bottom: 20%;
  margin-left: 10% ;
@@ -226,11 +229,11 @@ margin-top: 7%;
 
 #ContatoTitulo{
  margin-left: 44.5%;  
- font-family: "Open Sans";
+ font-family: 'Source Sans Pro';
 }
 
 #Formulario{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  margin-left: 51%;
  margin-right: 1%;
  margin-top: 5%;
@@ -239,7 +242,7 @@ margin-top: 7%;
 
 
 textarea {
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  width: 85%;
  height: 180%;
  padding: 10px 10px;
@@ -258,7 +261,7 @@ textarea {
 
 
 .Itext {
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
  width: 85%;
  height: 80%;
  padding: 10px 10px;
@@ -298,7 +301,7 @@ margin-top:2%
 }
 
 #rodape{
- font-family: "Open Sans";
+    font-family: 'Source Sans Pro';
      margin-top: 5%;
      padding: 10px;
      border-top: 2px solid black;
@@ -318,8 +321,9 @@ margin-top:2%
 
 .Contato{
  margin-top: 5%;
- font-family: "Open Sans";
+ font-family: 'Source Sans Pro';
 }
+
 #Projetos{
  margin-top: 5%;
 }
@@ -329,7 +333,7 @@ margin-top:2%
 }
 
 .MeiosContato{
-
+    font-family: 'Source Sans Pro';
  margin-top: 6%;
  margin-left:5%;
  float :left;
@@ -338,11 +342,13 @@ margin-top:2%
 }
 
 .Email{
-margin-top:7%
+margin-top:7%;
+font-family: 'Source Sans Pro';
 }
 
 .Telefone{
- margin-top:7%
+ margin-top:7%;
+ font-family: 'Source Sans Pro';
 }
 
 .icones{
